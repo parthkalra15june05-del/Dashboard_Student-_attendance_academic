@@ -1,0 +1,184 @@
+{
+  "Mathematics": {
+    "n": 395,
+    "mean": 10.415189873417722,
+    "median": 11.0,
+    "sd": 4.5814426109978434,
+    "pass_n": 265,
+    "fail_n": 130,
+    "pass_pct": 67.08860759493672,
+    "mean_absences": 5.708860759493671,
+    "median_absences": 4.0,
+    "max_absences": 75,
+    "pearson": {
+      "absences": 0.03424731615006925,
+      "studytime": 0.09781968965319622,
+      "failures": -0.3604149404616496,
+      "G1": 0.8014679320174145,
+      "G2": 0.9048679892693002,
+      "G3": 1.0
+    },
+    "spearman": {
+      "absences": 0.017730669122425134,
+      "studytime": 0.10516968678133248,
+      "failures": -0.3612235177002817,
+      "G1": 0.8780012974585715,
+      "G2": 0.9571253283356641,
+      "G3": 1.0
+    },
+    "nonzero_n": 357,
+    "nonzero_absence_r": -0.21312853214380864,
+    "study_groups": [
+      {
+        "studytime": 1,
+        "n": 105,
+        "mean": 10.047619047619047
+      },
+      {
+        "studytime": 2,
+        "n": 198,
+        "mean": 10.171717171717171
+      },
+      {
+        "studytime": 3,
+        "n": 65,
+        "mean": 11.4
+      },
+      {
+        "studytime": 4,
+        "n": 27,
+        "mean": 11.25925925925926
+      }
+    ],
+    "absence_groups": [
+      {
+        "Absence_Group": "6-10",
+        "n": 80,
+        "mean": 11.4,
+        "pass_pct": 73.75
+      },
+      {
+        "Absence_Group": "1-5",
+        "n": 134,
+        "mean": 11.649253731343284,
+        "pass_pct": 78.35820895522389
+      },
+      {
+        "Absence_Group": "0",
+        "n": 115,
+        "mean": 8.443478260869565,
+        "pass_pct": 56.52173913043478
+      },
+      {
+        "Absence_Group": "11+",
+        "n": 66,
+        "mean": 10.151515151515152,
+        "pass_pct": 54.54545454545454
+      }
+    ]
+  },
+  "Portuguese": {
+    "n": 649,
+    "mean": 11.906009244992296,
+    "median": 12.0,
+    "sd": 3.230656242804805,
+    "pass_n": 549,
+    "fail_n": 100,
+    "pass_pct": 84.59167950693374,
+    "mean_absences": 3.6594761171032357,
+    "median_absences": 2.0,
+    "max_absences": 32,
+    "pearson": {
+      "absences": -0.09137905643875596,
+      "studytime": 0.24978868999886306,
+      "failures": -0.39331554804199254,
+      "G1": 0.8263871247890486,
+      "G2": 0.9185480035603523,
+      "G3": 1.0
+    },
+    "spearman": {
+      "absences": -0.15851002809372566,
+      "studytime": 0.27471184833560985,
+      "failures": -0.4483603000808327,
+      "G1": 0.8832876374956354,
+      "G2": 0.944451186692252,
+      "G3": 1.0
+    },
+    "nonzero_n": 634,
+    "nonzero_absence_r": -0.19603148154112515,
+    "study_groups": [
+      {
+        "studytime": 1,
+        "n": 212,
+        "mean": 10.84433962264151
+      },
+      {
+        "studytime": 2,
+        "n": 305,
+        "mean": 12.091803278688525
+      },
+      {
+        "studytime": 3,
+        "n": 97,
+        "mean": 13.22680412371134
+      },
+      {
+        "studytime": 4,
+        "n": 35,
+        "mean": 13.057142857142857
+      }
+    ],
+    "absence_groups": [
+      {
+        "Absence_Group": "1-5",
+        "n": 234,
+        "mean": 12.055555555555555,
+        "pass_pct": 86.32478632478633
+      },
+      {
+        "Absence_Group": "6-10",
+        "n": 122,
+        "mean": 11.852459016393443,
+        "pass_pct": 81.9672131147541
+      },
+      {
+        "Absence_Group": "0",
+        "n": 244,
+        "mean": 12.040983606557377,
+        "pass_pct": 86.0655737704918
+      },
+      {
+        "Absence_Group": "11+",
+        "n": 49,
+        "mean": 10.653061224489797,
+        "pass_pct": 75.51020408163265
+      }
+    ]
+  },
+  "cleaning": [
+    {
+      "subject": "Mathematics",
+      "rows_in": 395,
+      "rows_out": 395,
+      "null_cells": 0,
+      "exact_duplicate_rows": 0,
+      "invalid_values": 0,
+      "absences_iqr_upper_fence": 20.0,
+      "high_absence_records_retained": 15,
+      "zero_final_grades_retained": 38,
+      "original_sha256": "e47f9ee225e1ee6e69b7564e6dac7123e80b8486677fe111f351964cef5dec80"
+    },
+    {
+      "subject": "Portuguese",
+      "rows_in": 649,
+      "rows_out": 649,
+      "null_cells": 0,
+      "exact_duplicate_rows": 0,
+      "invalid_values": 0,
+      "absences_iqr_upper_fence": 15.0,
+      "high_absence_records_retained": 21,
+      "zero_final_grades_retained": 15,
+      "original_sha256": "a7594a11d7771c0efe1a740824e0e833da9c4cad07c39a9766a874575563fb3f"
+    }
+  ]
+}

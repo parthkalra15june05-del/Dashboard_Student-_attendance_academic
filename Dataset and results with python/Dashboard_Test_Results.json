@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "Default math KPIs",
+    "All four pages",
+    "Search",
+    "Record dialog",
+    "School drill down",
+    "Subject filter",
+    "School filter",
+    "Fail filter",
+    "Reset",
+    "CSV export",
+    "Mobile rendering",
+    "No JavaScript errors"
+  ]
+}

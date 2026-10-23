@@ -1,0 +1,22 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/320/student+performance",
+  "download": "https://archive.ics.uci.edu/static/public/320/student+performance.zip",
+  "retrieved": "2026-10-23",
+  "license": "CC BY 4.0",
+  "citation": "Cortez, P. (2008). Student Performance [Dataset]. UCI Machine Learning Repository. DOI 10.24432/C5TG7T",
+  "original_files": [
+    {
+      "delivered_name": "Original_Dataset.csv",
+      "source_name": "student-mat.csv",
+      "sha256": "e47f9ee225e1ee6e69b7564e6dac7123e80b8486677fe111f351964cef5dec80",
+      "delimiter": ";"
+    },
+    {
+      "delivered_name": "Original_Portuguese.csv",
+      "source_name": "student-por.csv",
+      "sha256": "a7594a11d7771c0efe1a740824e0e833da9c4cad07c39a9766a874575563fb3f",
+      "delimiter": ";"
+    }
+  ],
+  "scope": "Public Portuguese secondary-school data; not SGSITS data. Appended rows are course records, not unique persons."
+}

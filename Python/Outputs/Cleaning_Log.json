@@ -1,0 +1,26 @@
+[
+  {
+    "subject": "Mathematics",
+    "rows_in": 395,
+    "rows_out": 395,
+    "null_cells": 0,
+    "exact_duplicate_rows": 0,
+    "invalid_values": 0,
+    "absences_iqr_upper_fence": 20.0,
+    "high_absence_records_retained": 15,
+    "zero_final_grades_retained": 38,
+    "original_sha256": "e47f9ee225e1ee6e69b7564e6dac7123e80b8486677fe111f351964cef5dec80"
+  },
+  {
+    "subject": "Portuguese",
+    "rows_in": 649,
+    "rows_out": 649,
+    "null_cells": 0,
+    "exact_duplicate_rows": 0,
+    "invalid_values": 0,
+    "absences_iqr_upper_fence": 15.0,
+    "high_absence_records_retained": 21,
+    "zero_final_grades_retained": 15,
+    "original_sha256": "a7594a11d7771c0efe1a740824e0e833da9c4cad07c39a9766a874575563fb3f"
+  }
+]
